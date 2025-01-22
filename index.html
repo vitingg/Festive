@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  
+  <title>Festivite</title>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Festivite</title>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Leckerli+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+
 </head>
 <body>
+
+  <div class="header">
+    <h1>Crie seu convite</h1>
+  </div>
+
+
+  <div>
+    <div class="title"> 
+      <h3>Título</h3>
+      <input type="text" placeholder="Nome do evento">
+    </div>
+
+
+    <div class="row">
+      <div class="start">
+        <h3>Início</h3>
+        <input type="date">
+      </div>
+
+
+      <div class="end">
+        <h3>Fim</h3>
+        <input type="Date">
+      </div>
+    </div>
+
+
+    <div class="space">
+      <div class="typ">
+        <h3>Tipo</h3>
+        <div class="button">
+          <button class="toggle-button selected" onclick="selectOption(this)">
+            <img src="assets/icons/building-2.svg" alt="">
+            Presencial
+          </button>
+          <button class="toggle-button" onclick="selectOption(this)">
+            <img src="assets/icons/video.svg" alt="">
+            Online
+          </button>
+        </div>
+      </div>
+
+        <div class="location">
+          <h3>local</h3>
+          <input type="text" placeholder="Link ou endereço">
+        </div>
+    </div>
+
+
+    <div>
+      <div class="info">
+        <h3>Descrição</h3>
+        <input type="text" placeholder="Escreva sobre os detalhes do evento">
+      </div>
+  </div>
+</div>
   
+<script src="./js/index.js"></script>
 </body>
 </html>
