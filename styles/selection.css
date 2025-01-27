@@ -1,0 +1,138 @@
+
+.colors-selection {
+  h3 {
+    color: #FFFFFF;
+    font-family: var(--font-family3);
+    font-size: 1rem;
+    line-height: auto;
+    font-weight: 500;
+
+    margin-bottom: 1.5rem;
+  }
+}
+
+
+.perso {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  img {
+    color: var(--input-placeholder);
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  h2 {
+    margin-left: 1rem;
+    
+    color: var(--text-heading);
+    font-family: var(--font-family2);
+    font-size: 1.4rem;
+    line-height: auto;
+    font-weight: 700;
+  }
+}
+
+
+.colors {
+  display: flex;
+  flex-direction: row;
+
+  display: flex;
+  justify-content: space-between;
+
+
+  .color-selection-danger {
+    width: 2.5rem;
+    height: 2.5rem;
+  
+    border: 2px solid var(--brand-mid);
+    background-color: var(--shape-button);
+    border-radius: 2rem;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+}
+
+
+.color-selection {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  background-color: var(--shape-button);
+  border-radius: 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.color-brand-light {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: var(--cyan);
+  border-radius: 2rem;
+}
+.color-navy {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: var(--navy);
+  border-radius: 2rem;
+}
+.color-purple {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: var(--purple);
+  border-radius: 2rem;
+}
+.color-fuschia {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: var(--fuschia);
+  border-radius: 2rem;
+}
+.color-pink {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: var(--pink);
+  border-radius: 2rem;
+}
+.color-danger {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: var(--danger);
+  border-radius: 2rem;
+}
+.color-orange {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: var(--orange);
+  border-radius: 2rem;
+}
+.color-yellow {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: var(--yellow);
+  border-radius: 2rem;
+}
+.color-lime {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: var(--lime);
+  border-radius: 2rem;
+}
+.color-cyan {
+  width: 1.75rem;
+  height: 1.75rem;
+  background-color: var(--cyan);
+  border-radius: 2rem;
+}
